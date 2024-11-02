@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesería Peronia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Hamburguesería Peronia</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Nuestras Hamburguesas</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="img/federalisima.jpeg" alt="federalisima">
+                    <h3>La federalisima</h3>
+                    <p>Hamburguesa tradicional con carne de res, queso cheddar, lechuga, tomate y nuestra salsa especial.</p>
+                    <p class="price">$10.000</p>
+                </div>
+                <div class="card">
+                    <img src="img/cabecita_negra.jpeg" alt="cabecita negra">
+                    <h3>cabecita negra</h3>
+                    <p>Con salsa BBQ, aros de cebolla crujientes, queso cheddar y tocino.</p>
+                    <p class="price">$12.000</p>
+                </div>
+                <div class="card">
+                    <img src="img/lajusticiera.jpeg" alt="la justiciera">
+                    <h3>justiciera social</h3>
+                    <p>Hamburguesa de garbanzos con lechuga, tomate, aguacate y salsa de ajo.</p>
+                    <p class="price">$11.500</p>
+                </div>
+                <div class="card">
+                    <img src="img/tercera.jpeg" alt="tercera posicion">
+                    <h3>La tercera posicion</h3>
+                    <p>Hamburguesa de garbanzos con lechuga, tomate, aguacate y salsa de ajo.</p>
+                    <p class="price">$15.000</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-container">
+                <div class="reseña">
+                    <img src="img/carla.jpeg" alt="carla">
+                    <p>La mejor hamburguesa que he probado, la calidad es insuperable. ¡Volveré pronto!</p>
+                </div>
+                <div class="reseña">
+                    <img src="img/victoria.jpg" alt="victoria">
+                    <p>Gran atención y excelente sabor en cada bocado. Recomendado al 100%.</p>
+                </div>
+                <div class="reseña">
+                    <img src="img/pedro.jpg" alt="pedro">
+                    <p>Perfecto para una noche con amigos, las hamburguesas y papas son deliciosas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xqakpdrq" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Hamburguesería peronia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
